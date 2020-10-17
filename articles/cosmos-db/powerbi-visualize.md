@@ -130,7 +130,7 @@ You will retrieve the volcano data from the Azure Cosmos DB account and visualiz
 
 1. Next, specify the custom formula for the new column.  For our example, we will concatenate the Latitude and Longitude values separated by a comma as shown below using the following formula: `Text.From([coordinates]{1})&","&Text.From([coordinates]{0})`. Click **OK**.
    
-   For more information on Data Analysis Expressions (DAX) including DAX functions, please visit [DAX Basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
+   For more information on Power Query language including Power Query M function reference, please visit [Power Query M formula language](https://docs.microsoft.com/en-us/powerquery-m/).
    
    :::image type="content" source="./media/powerbi-visualize/power_bi_connector_pbicustomlatlong.png" alt-text="Power BI tutorial for Azure Cosmos DB Power BI connector - Add Custom Column":::
 
